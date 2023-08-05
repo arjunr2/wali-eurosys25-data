@@ -1,0 +1,345 @@
+USER         PID %CPU %MEM    VSZ   RSS TTY      STAT START   TIME COMMAND
+root           1  0.0  0.0 171412 10836 ?        Ss   Jul19   5:58 /sbin/init splash
+root           2  0.0  0.0      0     0 ?        S    Jul19   0:00 [kthreadd]
+root           3  0.0  0.0      0     0 ?        I<   Jul19   0:00 [rcu_gp]
+root           4  0.0  0.0      0     0 ?        I<   Jul19   0:00 [rcu_par_gp]
+root           5  0.0  0.0      0     0 ?        I<   Jul19   0:00 [netns]
+root           9  0.0  0.0      0     0 ?        I<   Jul19   0:00 [mm_percpu_wq]
+root          10  0.0  0.0      0     0 ?        S    Jul19   0:00 [rcu_tasks_rude_]
+root          11  0.0  0.0      0     0 ?        S    Jul19   0:00 [rcu_tasks_trace]
+root          12  0.0  0.0      0     0 ?        S    Jul19   0:09 [ksoftirqd/0]
+root          13  0.0  0.0      0     0 ?        I    Jul19   4:09 [rcu_sched]
+root          14  0.0  0.0      0     0 ?        S    Jul19   0:01 [migration/0]
+root          15  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/0]
+root          17  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/0]
+root          18  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/1]
+root          19  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/1]
+root          20  0.0  0.0      0     0 ?        S    Jul19   0:02 [migration/1]
+root          21  0.0  0.0      0     0 ?        S    Jul19   0:11 [ksoftirqd/1]
+root          23  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/1:0H-events_highpri]
+root          24  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/2]
+root          25  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/2]
+root          26  0.0  0.0      0     0 ?        S    Jul19   0:01 [migration/2]
+root          27  0.0  0.0      0     0 ?        S    Jul19   0:12 [ksoftirqd/2]
+root          29  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/2:0H-events_highpri]
+root          30  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/3]
+root          31  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/3]
+root          32  0.0  0.0      0     0 ?        S    Jul19   0:02 [migration/3]
+root          33  0.0  0.0      0     0 ?        S    Jul19   0:19 [ksoftirqd/3]
+root          35  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/3:0H-events_highpri]
+root          36  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/4]
+root          37  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/4]
+root          38  0.0  0.0      0     0 ?        S    Jul19   0:01 [migration/4]
+root          39  0.0  0.0      0     0 ?        S    Jul19   0:09 [ksoftirqd/4]
+root          41  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/4:0H-events_highpri]
+root          42  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/5]
+root          43  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/5]
+root          44  0.0  0.0      0     0 ?        S    Jul19   0:02 [migration/5]
+root          45  0.0  0.0      0     0 ?        S    Jul19   0:10 [ksoftirqd/5]
+root          47  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/5:0H-events_highpri]
+root          48  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/6]
+root          49  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/6]
+root          50  0.0  0.0      0     0 ?        S    Jul19   0:01 [migration/6]
+root          51  0.0  0.0      0     0 ?        S    Jul19   0:12 [ksoftirqd/6]
+root          53  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/6:0H-events_highpri]
+root          54  0.0  0.0      0     0 ?        S    Jul19   0:00 [cpuhp/7]
+root          55  0.0  0.0      0     0 ?        S    Jul19   0:00 [idle_inject/7]
+root          56  0.0  0.0      0     0 ?        S    Jul19   0:02 [migration/7]
+root          57  0.0  0.0      0     0 ?        S    Jul19   0:20 [ksoftirqd/7]
+root          59  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kworker/7:0H-events_highpri]
+root          60  0.0  0.0      0     0 ?        S    Jul19   0:00 [kdevtmpfs]
+root          61  0.0  0.0      0     0 ?        I<   Jul19   0:00 [inet_frag_wq]
+root          62  0.0  0.0      0     0 ?        S    Jul19   0:08 [kauditd]
+root          63  0.0  0.0      0     0 ?        S    Jul19   0:00 [khungtaskd]
+root          64  0.0  0.0      0     0 ?        S    Jul19   0:00 [oom_reaper]
+root          65  0.0  0.0      0     0 ?        I<   Jul19   0:00 [writeback]
+root          66  0.0  0.0      0     0 ?        S    Jul19  21:53 [kcompactd0]
+root          67  0.0  0.0      0     0 ?        SN   Jul19   0:00 [ksmd]
+root          68  0.0  0.0      0     0 ?        SN   Jul19   0:03 [khugepaged]
+root         115  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kintegrityd]
+root         116  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kblockd]
+root         117  0.0  0.0      0     0 ?        I<   Jul19   0:00 [blkcg_punt_bio]
+root         118  0.0  0.0      0     0 ?        I<   Jul19   0:00 [tpm_dev_wq]
+root         119  0.0  0.0      0     0 ?        I<   Jul19   0:00 [ata_sff]
+root         120  0.0  0.0      0     0 ?        I<   Jul19   0:00 [md]
+root         121  0.0  0.0      0     0 ?        I<   Jul19   0:00 [edac-poller]
+root         122  0.0  0.0      0     0 ?        I<   Jul19   0:00 [devfreq_wq]
+root         123  0.0  0.0      0     0 ?        S    Jul19   0:00 [watchdogd]
+root         125  0.0  0.0      0     0 ?        I<   Jul19   0:13 [kworker/1:1H-events_highpri]
+root         126  0.0  0.0      0     0 ?        I<   Jul19   0:10 [kworker/0:1H-events_highpri]
+root         129  0.0  0.0      0     0 ?        S    Jul19   2:14 [kswapd0]
+root         130  0.0  0.0      0     0 ?        S    Jul19   0:00 [ecryptfs-kthrea]
+root         132  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kthrotld]
+root         133  0.0  0.0      0     0 ?        S    Jul19   0:00 [irq/125-pciehp]
+root         134  0.0  0.0      0     0 ?        S    Jul19   0:00 [irq/126-pciehp]
+root         140  0.0  0.0      0     0 ?        I<   Jul19   0:00 [acpi_thermal_pm]
+root         142  0.0  0.0      0     0 ?        I<   Jul19   0:00 [vfio-irqfd-clea]
+root         143  0.0  0.0      0     0 ?        I<   Jul19   0:15 [kworker/6:1H-events_highpri]
+root         144  0.0  0.0      0     0 ?        I<   Jul19   0:14 [kworker/5:1H-kblockd]
+root         145  0.0  0.0      0     0 ?        I<   Jul19   0:00 [mld]
+root         146  0.0  0.0      0     0 ?        I<   Jul19   0:14 [kworker/4:1H-events_highpri]
+root         147  0.0  0.0      0     0 ?        I<   Jul19   0:00 [ipv6_addrconf]
+root         156  0.0  0.0      0     0 ?        I<   Jul19   0:00 [kstrp]
+root         159  0.0  0.0      0     0 ?        I<   Jul19   0:00 [zswap-shrink]
+root         168  0.0  0.0      0     0 ?        I<   Jul19   0:00 [charger_manager]
+root         191  0.0  0.0      0     0 ?        I<   Jul19   0:11 [kworker/3:1H-events_highpri]
+root         227  0.0  0.0      0     0 ?        I<   Jul19   0:24 [kworker/2:1H-events_highpri]
+root         228  0.0  0.0      0     0 ?        I<   Jul19   0:00 [nvme-wq]
+root         229  0.0  0.0      0     0 ?        I<   Jul19   0:00 [nvme-reset-wq]
+root         230  0.0  0.0      0     0 ?        I<   Jul19   0:00 [nvme-delete-wq]
+root         234  0.0  0.0      0     0 ?        I<   Jul19   0:12 [kworker/7:1H-kblockd]
+root         237  1.8  0.0      0     0 ?        D    Jul19 449:17 [irq/118-ELAN067]
+root         267  0.0  0.0      0     0 ?        S    Jul19   0:37 [jbd2/nvme0n1p6-]
+root         268  0.0  0.0      0     0 ?        I<   Jul19   0:00 [ext4-rsv-conver]
+root         310  0.0  0.2 103500 41368 ?        S<s  Jul19   5:35 /lib/systemd/systemd-journald
+root         334  0.0  0.0  25008  3752 ?        Ss   Jul19   0:05 /lib/systemd/systemd-udevd
+root         335  0.0  0.0      0     0 ?        I<   Jul19   0:00 [ipmi-msghandler]
+root         509  0.0  0.0      0     0 ?        I<   Jul19   0:00 [cfg80211]
+root         514  0.0  0.0      0     0 ?        I<   Jul19   0:00 [ktpacpid]
+root         515  0.0  0.0      0     0 ?        I<   Jul19   0:00 [cryptd]
+root         516  0.0  0.0      0     0 ?        S    Jul19   1:43 [irq/171-iwlwifi]
+root         517  0.0  0.0      0     0 ?        S    Jul19   0:36 [irq/172-iwlwifi]
+root         518  0.0  0.0      0     0 ?        S    Jul19   1:14 [irq/173-iwlwifi]
+root         519  0.0  0.0      0     0 ?        S    Jul19   0:22 [irq/174-iwlwifi]
+root         520  0.0  0.0      0     0 ?        S    Jul19   0:59 [irq/175-iwlwifi]
+root         521  0.0  0.0      0     0 ?        S    Jul19   0:30 [irq/176-iwlwifi]
+root         522  0.0  0.0      0     0 ?        S    Jul19   0:21 [irq/177-iwlwifi]
+root         523  0.0  0.0      0     0 ?        S    Jul19   0:38 [irq/178-iwlwifi]
+root         524  0.0  0.0      0     0 ?        S    Jul19   0:40 [irq/179-iwlwifi]
+root         525  0.0  0.0      0     0 ?        S    Jul19   0:00 [irq/180-iwlwifi]
+root         546  0.0  0.0      0     0 ?        S    Jul19   0:00 [card0-crtc0]
+root         547  0.0  0.0      0     0 ?        S    Jul19   0:00 [card0-crtc1]
+root         548  0.0  0.0      0     0 ?        S    Jul19   0:00 [card0-crtc2]
+root         549  0.0  0.0      0     0 ?        S    Jul19   0:00 [card0-crtc3]
+root         620  0.0  0.0      0     0 ?        I<   Jul19   0:00 [USBC000:00-con0]
+root         647  0.0  0.0      0     0 ?        S    Jul19   1:00 [irq/184-AudioDS]
+systemd+     906  0.0  0.0  90908  2300 ?        Ssl  Jul19   0:00 /lib/systemd/systemd-timesyncd
+root         909  0.0  0.0  11364  1420 ?        S<sl Jul19   0:15 /sbin/auditd
+root        1027  0.0  0.0 238936  4808 ?        Ssl  Jul19   0:24 /usr/lib/accountsservice/accounts-daemon
+root        1028  0.0  0.0   2680  2032 ?        Ss   Jul19   8:07 /usr/sbin/acpid
+avahi       1032  0.0  0.0   9416  3640 ?        Ss   Jul19   1:00 avahi-daemon: running [arjun-thinkpad.local]
+root        1034  0.0  0.0   9440  4640 ?        Ss   Jul19   0:47 /usr/lib/bluetooth/bluetoothd
+root        1036  0.0  0.0   2508    68 ?        S<   Jul19   1:07 /usr/sbin/atopacctd
+root        1039  0.0  0.0   9424  2504 ?        Ss   Jul19   0:00 /usr/sbin/cron -f
+message+    1043  0.0  0.0  10352  5960 ?        Ss   Jul19  22:10 /usr/bin/dbus-daemon --system --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+root        1044  0.1  0.1 883540 20852 ?        Ssl  Jul19  35:33 /usr/sbin/NetworkManager --no-daemon
+root        1053  0.0  0.0  81940  2704 ?        Ssl  Jul19   0:19 /usr/sbin/irqbalance --foreground
+root        1058  0.0  0.0  39988  7648 ?        Ss   Jul19   0:00 /usr/bin/python3 /usr/bin/networkd-dispatcher --run-startup-triggers
+root        1064  0.0  0.0 241212  8320 ?        Ssl  Jul19   0:17 /usr/lib/policykit-1/polkitd --no-debug
+syslog      1068  0.0  0.0 224528  3672 ?        Ssl  Jul19   2:09 /usr/sbin/rsyslogd -n -iNONE
+root        1075  0.0  0.1 1688616 21944 ?       Ssl  Jul19   0:58 /usr/lib/snapd/snapd
+root        1077  0.0  0.0 235848  4192 ?        Ssl  Jul19   0:00 /usr/libexec/switcheroo-control
+root        1079  0.0  0.0  17576  5144 ?        Ss   Jul19   0:39 /lib/systemd/systemd-logind
+root        1081  0.0  0.0 468632  8916 ?        Ssl  Jul19   0:02 /usr/lib/udisks2/udisksd
+root        1082  0.0  0.0  14552  6376 ?        Ss   Jul19   5:03 /sbin/wpa_supplicant -u -s -O /run/wpa_supplicant
+avahi       1099  0.0  0.0   8348   108 ?        S    Jul19   0:00 avahi-daemon: chroot helper
+colord      1131  0.0  0.0 861328  9380 ?        Ssl  Jul19   0:02 /usr/libexec/colord
+root        1143  0.0  0.0 315340  5356 ?        Ssl  Jul19   0:01 /usr/sbin/ModemManager
+root        1145  0.0  0.0 238568  4232 ?        Ssl  Jul19   0:02 /usr/libexec/boltd
+root        1243  0.0  0.0      0     0 ?        I<   Jul19   0:00 [USBC000:00-con0]
+root        1247  0.0  0.0 313352  4968 ?        Ssl  Jul19   0:00 /usr/sbin/gdm3
+root        1298  0.0  0.0 118156  8120 ?        Ssl  Jul19   0:00 /usr/bin/python3 /usr/share/unattended-upgrades/unattended-upgrade-shutdown --wait-for-signal
+rtkit       1340  0.0  0.0 152936  2184 ?        SNsl Jul19   0:05 /usr/libexec/rtkit-daemon
+root        1480  0.0  0.0 318136  6476 ?        Ssl  Jul19   0:19 /usr/lib/upower/upowerd
+geoclue     1622  0.0  0.1 903924 17340 ?        Ssl  Jul19  10:17 /usr/libexec/geoclue
+root        1893  0.0  0.2 5422612 46788 ?       Ssl  Jul19  15:14 /usr/bin/dockerd -H fd:// --containerd=/run/containerd/containerd.sock
+mosquit+    1898  0.0  0.0  28108  3804 ?        Ssl  Jul19   1:33 /usr/sbin/mosquitto -c /etc/mosquitto/mosquitto.conf
+root        1899  0.0  0.0   5568  1980 ?        Ss   Jul19   0:00 /usr/lib/ipsec/starter --daemon charon --nofork
+whoopsie    1910  0.0  0.0 405372 10284 ?        Ssl  Jul19   0:01 /usr/bin/whoopsie -f
+kernoops    1940  0.0  0.0  11268  1996 ?        Ss   Jul19   0:10 /usr/sbin/kerneloops --test
+kernoops    1957  0.0  0.0  11268   304 ?        Ss   Jul19   0:09 /usr/sbin/kerneloops
+root        1968  0.0  0.0   3040   128 ?        Ss   Jul19   0:00 /usr/sbin/in.tftpd --listen --user tftp --address :69 -c -l -s /home/user/tftp
+root        1992  0.0  0.0      0     0 ?        I<   Jul19   0:00 [iprt-VBoxWQueue]
+root        1998  0.0  0.0   2616   108 ?        Ss   Jul19   0:00 /usr/sbin/xl2tpd
+root        2014  0.0  0.0 1192372 2872 ?        Ssl  Jul19   0:02 /usr/lib/ipsec/charon
+root        2059  0.0  0.0      0     0 ?        S    Jul19   0:00 [iprt-VBoxTscThr]
+root        2169  0.0  0.0 391180  8668 ?        Sl   Jul19   0:00 gdm-session-worker [pam/gdm-password]
+arjun       2178  0.0  0.0  20512  7180 ?        Ss   Jul19   0:25 /lib/systemd/systemd --user
+arjun       2179  0.0  0.0 170572  1132 ?        S    Jul19   0:00 (sd-pam)
+arjun       2186  0.0  0.0 3688884 15388 ?       Ssl  Jul19  13:24 /usr/bin/pulseaudio --daemonize=no --log-target=journal
+arjun       2188  0.0  0.3 1174924 59904 ?       SNsl Jul19  13:45 /usr/libexec/tracker-miner-fs
+arjun       2192  0.0  0.0  15004 10460 ?        Ss   Jul19   0:24 /usr/bin/dbus-daemon --session --address=systemd: --nofork --nopidfile --systemd-activation --syslog-only
+arjun       2194  0.0  0.0 388284  6832 ?        SLl  Jul19   0:03 /usr/bin/gnome-keyring-daemon --daemonize --login
+arjun       2211  0.0  0.0 239820  4196 ?        Ssl  Jul19   0:01 /usr/libexec/gvfsd
+arjun       2216  0.0  0.0 378352  3724 ?        Sl   Jul19   0:00 /usr/libexec/gvfsd-fuse /run/user/1000/gvfs -f -o big_writes
+arjun       2218  0.0  0.0 461996  6880 ?        Ssl  Jul19   0:37 /usr/libexec/gvfs-udisks2-volume-monitor
+arjun       2231  0.0  0.0 316732  4528 ?        Ssl  Jul19   0:09 /usr/libexec/gvfs-afc-volume-monitor
+arjun       2238  0.0  0.0 235884  4088 ?        Ssl  Jul19   0:00 /usr/libexec/gvfs-goa-volume-monitor
+root        2239  0.0  0.0      0     0 ?        S<   Jul19   0:00 [krfcommd]
+arjun       2243  0.0  0.0 553372  5456 ?        Sl   Jul19   0:01 /usr/libexec/goa-daemon
+arjun       2258  0.0  0.0 314764  4080 ?        Sl   Jul19   0:17 /usr/libexec/goa-identity-service
+arjun       2266  0.0  0.0 235828  3956 ?        Ssl  Jul19   0:01 /usr/libexec/gvfs-mtp-volume-monitor
+arjun       2274  0.0  0.0 238116  4676 ?        Ssl  Jul19   0:01 /usr/libexec/gvfs-gphoto2-volume-monitor
+root        2361  0.0  0.0   2496   572 ?        S    Jul19   0:00 bpfilter_umh
+arjun       2370  0.0  0.0 164024  4056 tty2     Ssl+ Jul19   0:00 /usr/lib/gdm3/gdm-x-session --run-script env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+arjun       2376  0.4  0.4 797772 76876 tty2     Sl+  Jul19 116:06 /usr/lib/xorg/Xorg vt2 -displayfd 3 -auth /run/user/1000/gdm/Xauthority -background none -noreset -keeptty -verbose 3
+arjun       2602  0.0  0.0 188276  5204 tty2     Sl+  Jul19   0:00 /usr/libexec/gnome-session-binary --systemd --systemd --session=ubuntu
+arjun       2750  0.0  0.0   6040    32 ?        Ss   Jul19   0:01 /usr/bin/ssh-agent /usr/bin/im-launch env GNOME_SHELL_SESSION_MODE=ubuntu /usr/bin/gnome-session --systemd --session=ubuntu
+arjun       2768  0.0  0.0 305632  4216 ?        Ssl  Jul19   0:00 /usr/libexec/at-spi-bus-launcher
+arjun       2773  0.0  0.0   7512  3228 ?        S    Jul19   0:06 /usr/bin/dbus-daemon --config-file=/usr/share/defaults/at-spi2/accessibility.conf --nofork --print-address 3
+arjun       2781  0.0  0.0  90068  1892 ?        Ssl  Jul19   0:00 /usr/libexec/gnome-session-ctl --monitor
+arjun       2788  0.0  0.0 558176  7276 ?        Ssl  Jul19   0:02 /usr/libexec/gnome-session-binary --systemd-service --session=ubuntu
+arjun       2802  0.6  2.2 6974152 367964 ?      Ssl  Jul19 158:02 /usr/bin/gnome-shell
+arjun       2828  0.0  0.0 311220  5936 ?        Sl   Jul19   0:04 ibus-daemon --panel disable --xim
+arjun       2832  0.0  0.0 162712  4376 ?        Sl   Jul19   0:00 /usr/libexec/ibus-memconf
+arjun       2833  0.0  0.0 272832 10428 ?        Sl   Jul19   0:04 /usr/libexec/ibus-extension-gtk3
+arjun       2835  0.0  0.0 194800  9688 ?        Sl   Jul19   0:02 /usr/libexec/ibus-x11 --kill-daemon
+arjun       2838  0.0  0.0 236908  5540 ?        Sl   Jul19   0:01 /usr/libexec/ibus-portal
+arjun       2849  0.0  0.0 162844  3596 ?        Sl   Jul19   0:25 /usr/libexec/at-spi2-registryd --use-gnome-session
+arjun       2854  0.0  0.0 581180  6560 ?        Sl   Jul19   0:00 /usr/libexec/gnome-shell-calendar-server
+arjun       2855  0.0  0.0 235608  4008 ?        Ssl  Jul19   0:00 /usr/libexec/xdg-permission-store
+arjun       2864  0.0  0.0 1070280 7344 ?        Ssl  Jul19   0:00 /usr/libexec/evolution-source-registry
+arjun       2872  0.0  0.0 1379564 7516 ?        Ssl  Jul19   0:01 /usr/libexec/evolution-calendar-factory
+arjun       2874  0.0  0.0 156928  4768 ?        Sl   Jul19   0:00 /usr/libexec/dconf-service
+arjun       2887  0.0  0.0 755320  7036 ?        Ssl  Jul19   0:01 /usr/libexec/evolution-addressbook-factory
+arjun       2902  0.0  0.0 3004024 13960 ?       Sl   Jul19   0:01 /usr/bin/gjs /usr/share/gnome-shell/org.gnome.Shell.Notifications
+arjun       2914  0.0  0.0 388352  7048 ?        Sl   Jul19   0:02 /usr/libexec/gvfsd-trash --spawner :1.3 /org/gtk/gvfs/exec_spaw/0
+arjun       2921  0.0  0.0 309728  4344 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-a11y-settings
+arjun       2922  0.0  0.0 967536 13696 ?        Ssl  Jul19   0:07 /usr/libexec/gsd-color
+arjun       2923  0.0  0.0 454796  6084 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-datetime
+arjun       2924  0.0  0.0 312060  5900 ?        Ssl  Jul19   0:13 /usr/libexec/gsd-housekeeping
+arjun       2927  0.0  0.0 415692  9888 ?        Ssl  Jul19   0:03 /usr/libexec/gsd-keyboard
+arjun       2929  0.0  0.0 1488892 15340 ?       Ssl  Jul19   0:09 /usr/libexec/gsd-media-keys
+arjun       2931  0.0  0.0 682624 14356 ?        Ssl  Jul19   0:06 /usr/libexec/gsd-power
+arjun       2935  0.0  0.0 248252  5368 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-print-notifications
+arjun       2938  0.0  0.0 457108  4380 ?        Ssl  Jul19   0:01 /usr/libexec/gsd-rfkill
+arjun       2940  0.0  0.0 235516  3936 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-screensaver-proxy
+arjun       2941  0.0  0.0 465488  7516 ?        Ssl  Jul19   7:33 /usr/libexec/gsd-sharing
+arjun       2942  0.0  0.0 388964  5064 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-smartcard
+arjun       2944  0.0  0.0 319424  5284 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-sound
+arjun       2946  0.0  0.0 458764  4980 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-usb-protection
+arjun       2947  0.0  0.0 341304  9876 ?        Ssl  Jul19   0:03 /usr/libexec/gsd-wacom
+arjun       2949  0.0  0.0 314164  4472 ?        Ssl  Jul19   0:00 /usr/libexec/gsd-wwan
+arjun       2951  0.0  0.0 343084 11332 ?        Ssl  Jul19   0:05 /usr/libexec/gsd-xsettings
+arjun       2979  0.0  0.0 162836  4972 ?        Sl   Jul19   0:01 /usr/libexec/ibus-engine-simple
+arjun       2988  0.0  0.0 342188  5176 ?        Sl   Jul19   0:00 /usr/libexec/gsd-printer
+arjun       3021  0.0  0.0 231808  5636 ?        Sl   Jul19   0:00 /usr/libexec/gsd-disk-utility-notify
+arjun       3025  0.0  0.0 644104 11484 ?        Sl   Jul19   0:03 /usr/libexec/evolution-data-server/evolution-alarm-notify
+arjun       3029  0.0  0.0 312760  4708 ?        Sl   Jul19   0:00 /usr/lib/x86_64-linux-gnu/indicator-messages/indicator-messages-service
+arjun       3177  0.0  0.0 864584 11120 ?        Sl   Jul19   0:06 /usr/bin/gnome-calendar --gapplication-service
+arjun       3247  0.5  5.1 35630448 821996 ?     SLl  Jul19 129:04 /opt/google/chrome/chrome
+arjun       3253  0.0  0.0   8236   144 ?        S    Jul19   0:00 cat
+arjun       3254  0.0  0.0   8236   308 ?        S    Jul19   0:20 cat
+arjun       3282  0.0  0.0 33602628 7372 ?       Sl   Jul19   0:00 /opt/google/chrome/chrome_crashpad_handler --monitor-self --monitor-self-annotation=ptype=crashpad-handler --database=/home/arjun/.config/google-chrome/Crash Reports --metrics-dir=/home/arjun/.config/google-chrome --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=108.0.5359.124 --initial-client-fd=5 --shared-client-connection
+arjun       3284  0.0  0.0 33567932 1440 ?       Sl   Jul19   0:00 /opt/google/chrome/chrome_crashpad_handler --no-periodic-tasks --monitor-self-annotation=ptype=crashpad-handler --database=/home/arjun/.config/google-chrome/Crash Reports --url=https://clients2.google.com/cr/report --annotation=channel= --annotation=lsb-release=Ubuntu 20.04.4 LTS --annotation=plat=Linux --annotation=prod=Chrome_Linux --annotation=ver=108.0.5359.124 --initial-client-fd=4 --shared-client-connection
+arjun       3290  0.0  0.0 33851720 9652 ?       S    Jul19   0:00 /opt/google/chrome/chrome --type=zygote --no-zygote-sandbox --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable
+arjun       3291  0.0  0.0 33851712 9928 ?       S    Jul19   0:00 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable
+arjun       3292  0.0  0.0 33568088 2244 ?       S    Jul19   0:00 /opt/google/chrome/nacl_helper
+arjun       3295  0.0  0.0 33851736 6676 ?       S    Jul19   0:10 /opt/google/chrome/chrome --type=zygote --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable
+arjun       3314  0.0  0.0 610384  9304 ?        Ssl  Jul19   0:08 /usr/libexec/xdg-desktop-portal
+arjun       3324  0.1  0.5 33924252 90152 ?      Sl   Jul19  38:39 /opt/google/chrome/chrome --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun       3325  0.0  0.0 752592  3092 ?        Ssl  Jul19   0:02 /usr/libexec/xdg-document-portal
+arjun       3341  0.0  0.0 491888 11736 ?        Ssl  Jul19   0:09 /usr/libexec/xdg-desktop-portal-gtk
+arjun       3348  0.0  0.1 33901312 28156 ?      Sl   Jul19   1:29 /opt/google/chrome/chrome --type=utility --utility-sub-type=storage.mojom.StorageService --lang=en-US --service-sandbox-type=utility --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun       3446  0.0  0.1 1184765888 23124 ?    Sl   Jul19   0:03 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=5 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=14070362 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun       3962  0.0  0.0 163348  5908 ?        Ssl  Jul19   0:12 /usr/libexec/gvfsd-metadata
+arjun       3978  0.0  0.1 34177504 29156 ?      Sl   Jul19  15:38 /opt/google/chrome/chrome --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun       4332  0.0  0.7 1184830732 113560 ?   Sl   Jul19  13:57 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=39 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=61240643 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun       4501  0.0  0.1 462384 22380 ?        Sl   Jul19   0:10 update-notifier
+arjun      13412  0.0  0.7 943104 119564 ?       Ssl  Jul19  20:20 /usr/libexec/gnome-terminal-server
+root       44283  0.0  0.0      0     0 ?        I<   Jul19   0:00 [uas]
+arjun      45487  0.0  0.0 994252  5540 ?        Sl   Jul19   0:00 /usr/libexec/gvfsd-network --spawner :1.3 /org/gtk/gvfs/exec_spaw/1
+arjun      45500  0.0  0.0 315108  5100 ?        Sl   Jul19   0:00 /usr/libexec/gvfsd-dnssd --spawner :1.3 /org/gtk/gvfs/exec_spaw/3
+arjun      54134  0.0  0.0   6040   748 ?        S    Jul19   0:00 /usr/bin/ssh-agent -D -a /run/user/1000/keyring/.ssh
+arjun      69013  0.0  0.6 1394480 109028 ?      Sl   Aug04   0:10 /usr/bin/nautilus --gapplication-service
+arjun      75219  0.0  0.0  43996  2084 ?        Ss   Jul19   0:00 /usr/lib/bluetooth/obexd
+arjun      77317  0.0  0.7 1178295608 125644 ?   SLl  Jul19   9:42 /snap/slack/82/usr/lib/slack/slack --no-sandbox --executed-from=/home/arjun --pid=77136
+arjun      77320  0.0  0.0 33981236 1412 ?       S    Jul19   0:00 /snap/slack/82/usr/lib/slack/slack --type=zygote --no-zygote-sandbox --no-sandbox
+arjun      77321  0.0  0.0 33981236 5520 ?       S    Jul19   0:00 /snap/slack/82/usr/lib/slack/slack --type=zygote --no-sandbox
+arjun      77337  0.0  0.0 33588636  84 ?        Sl   Jul19   0:00 /snap/slack/82/usr/lib/slack/chrome_crashpad_handler --monitor-self-annotation=ptype=crashpad-handler --no-upload-gzip --database=/home/arjun/snap/slack/82/.config/Slack/Crashpad --url=https://slack.com/apps/sentryproxy/api/5277886/minidump/?sentry_key=fd30fe469dbf4aec9db40548e5acf91e --annotation=_productName=Slack --annotation=_version=4.33.73 --annotation=lsb-release=Ubuntu Core 18 --annotation=plat=Linux --annotation=prod=Electron --annotation=sentry___initialScope={"release":"Slack@4.33.73","environment":"production","user":{"id":"3da4a5bf-66ed-5352-9504-06cb2ea8a6e3"},"tags":{"uuid":"3da4a5bf-66ed-5352-9504-06cb2ea8a6e3"}} --annotation=ver=25.0.1 --initial-client-fd=48 --shared-client-connection
+arjun      77350  0.2  0.6 34627676 100628 ?     Sl   Jul19  54:16 /snap/slack/82/usr/lib/slack/slack --type=gpu-process --no-sandbox --enable-logging --crashpad-handler-pid=77337 --enable-crash-reporter=d7b08b8e-5c70-4fab-9359-61686b4522c7,no_channel --user-data-dir=/home/arjun/snap/slack/82/.config/Slack --gpu-preferences=WAAAAAAAAAAgAAAEAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAGAAAAAAAAAAYAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --enable-logging --log-file=/home/arjun/snap/slack/82/.config/Slack/logs/default/electron_debug.log --shared-files --field-trial-handle=0,i,6563590078717688192,12101537820604180860,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand
+arjun      77355  0.0  0.1 34070496 26876 ?      Sl   Jul19   4:59 /snap/slack/82/usr/lib/slack/slack --type=utility --utility-sub-type=network.mojom.NetworkService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-logging --crashpad-handler-pid=77337 --enable-crash-reporter=d7b08b8e-5c70-4fab-9359-61686b4522c7,no_channel --user-data-dir=/home/arjun/snap/slack/82/.config/Slack --standard-schemes=app,slack-webapp-dev --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --streaming-schemes --enable-logging --log-file=/home/arjun/snap/slack/82/.config/Slack/logs/default/electron_debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6563590078717688192,12101537820604180860,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand
+arjun      77369  0.0  0.0 1089368 2736 ?        Sl   Jul19   0:07 /usr/bin/snap userd
+arjun      77386  0.4  4.1 1186052124 660844 ?   Sl   Jul19 101:25 /snap/slack/82/usr/lib/slack/slack --type=renderer --crashpad-handler-pid=77337 --enable-crash-reporter=d7b08b8e-5c70-4fab-9359-61686b4522c7,no_channel --user-data-dir=/home/arjun/snap/slack/82/.config/Slack --standard-schemes=app,slack-webapp-dev --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --streaming-schemes --app-path=/snap/slack/82/usr/lib/slack/resources/app.asar --enable-sandbox --enable-blink-features=ExperimentalJSProfiler --disable-blink-features --first-renderer-process --no-sandbox --autoplay-policy=no-user-gesture-required --enable-logging --force-color-profile=srgb --log-file=/home/arjun/snap/slack/82/.config/Slack/logs/default/electron_debug.log --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=4 --time-ticks-at-unix-epoch=-1689771788058977 --launch-time-ticks=7104515764 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6563590078717688192,12101537820604180860,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand --window-type=main
+arjun      77508  0.0  0.0 34318500 6740 ?       Sl   Jul19   0:23 /snap/slack/82/usr/lib/slack/slack --type=utility --utility-sub-type=audio.mojom.AudioService --lang=en-US --service-sandbox-type=none --no-sandbox --enable-logging --crashpad-handler-pid=77337 --enable-crash-reporter=d7b08b8e-5c70-4fab-9359-61686b4522c7,no_channel --user-data-dir=/home/arjun/snap/slack/82/.config/Slack --standard-schemes=app,slack-webapp-dev --secure-schemes=app,slack-webapp-dev --bypasscsp-schemes=slack-webapp-dev --cors-schemes=slack-webapp-dev --fetch-schemes=slack-webapp-dev --service-worker-schemes=slack-webapp-dev --streaming-schemes --enable-logging --log-file=/home/arjun/snap/slack/82/.config/Slack/logs/default/electron_debug.log --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,6563590078717688192,12101537820604180860,262144 --disable-features=AllowAggressiveThrottlingWithWebSocket,CalculateNativeWinOcclusion,HardwareMediaKeyHandling,IntensiveWakeUpThrottling,LogJsConsoleMessages,RequestInitiatorSiteLockEnfocement,SpareRendererForSitePerProcess,WebRtcHideLocalIpsWithMdns,WinRetrieveSuggestionsOnlyOnDemand
+arjun     140100  0.0  0.0  11144  5268 pts/9    Ss+  Aug04   0:00 bash
+arjun     182963 24.2  0.0 8403812 13588 ?       R    Aug04 257:51 /home/arjun/Documents/research/webassembly/wali/wasm-micro-runtime/product-mini/platforms/linux/build/iwasm -v=0 --max-threads=100 --env-file=/home/arjun/.wasmenv --heap-size=0 --stack-size=262144 ./firework
+arjun     213441  0.0  0.8 1185872728 138440 ?   Sl   Aug04   0:07 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8792 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=411099067622 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     268815  0.0  0.9 1184808052 157064 ?   Sl   Aug04   0:03 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8933 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=416672927692 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     271347  0.0  0.9 1184809512 148212 ?   Sl   Aug04   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8934 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=416928683020 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     271409  0.0  0.4 1184777480 70536 ?    Sl   Aug04   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8935 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=416929925310 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     271428  0.0  1.3 1184814536 214784 ?   Sl   Aug04   0:26 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8936 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=416930609591 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+root      291318  0.0  0.0      0     0 ?        I    Aug04   0:01 [kworker/u16:6-events_unbound]
+root      291378  0.0  0.0      0     0 ?        S    09:52   0:00 [irq/144-mei_me]
+root      291423  0.1  0.1  16904 16312 ?        S<Ls 09:52   0:05 /usr/bin/atop -R -w /var/log/atop/atop_20230805 600
+arjun     292350  0.4  1.1 1184839512 181520 ?   Sl   09:53   0:20 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8962 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=418991386237 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     294534  0.0  0.9 1184798116 152764 ?   Sl   09:56   0:02 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8980 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=419189146150 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     294551  0.0  0.4 1184769284 68072 ?    Sl   09:56   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8981 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=419189397355 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     294604  0.2  0.9 1184804832 152356 ?   Sl   09:56   0:11 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8982 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=419190523865 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     299619  0.0  0.0  11124  5320 pts/10   Ss   10:04   0:00 bash
+root      299843  0.0  0.1 1869064 16456 ?       Ssl  Jul20  12:22 /usr/bin/containerd
+arjun     308377  0.0  0.0  11140  5416 pts/13   Ss+  10:18   0:00 bash
+root      309563  0.0  0.0      0     0 ?        I    10:19   0:00 [kworker/6:0-events]
+root      315922  0.0  0.0      0     0 ?        I<   10:30   0:01 [kworker/u17:2-hci0]
+root      316145  0.0  0.0      0     0 ?        I    10:30   0:00 [kworker/u16:2-events_unbound]
+root      316231  0.0  0.0      0     0 ?        I    10:30   0:00 [kworker/4:1-events]
+root      316382  0.0  0.0      0     0 ?        I    10:30   0:02 [kworker/0:1-events]
+root      317628  0.0  0.0      0     0 ?        I    10:32   0:00 [kworker/1:1-events]
+root      319683  0.0  0.0      0     0 ?        I    10:35   0:00 [kworker/2:2-events]
+root      320409  0.0  0.0      0     0 ?        I    10:36   0:00 [kworker/u16:1-events_unbound]
+arjun     321357  0.0  0.1  36540 22572 pts/10   T    10:38   0:00 gdb benchmark-native
+root      322980  0.0  0.0      0     0 ?        I    10:41   0:00 [kworker/7:2-events]
+root      327293  0.0  0.0      0     0 ?        I    10:48   0:00 [kworker/5:2-mm_percpu_wq]
+root      328980  0.0  0.0      0     0 ?        I<   10:50   0:00 [kworker/u17:1-i915_flip]
+arjun     330440  0.5  0.8 1184805112 144276 ?   Sl   10:52   0:05 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9066 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=422567951817 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     331917  0.1  0.8 1184809528 134600 ?   Sl   10:55   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9073 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=422707105250 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+root      332129  0.0  0.0      0     0 ?        I    10:55   0:00 [kworker/2:0-cgroup_destroy]
+root      332824  0.0  0.0      0     0 ?        I    10:56   0:00 [kworker/3:0-events]
+root      333812  0.0  0.0      0     0 ?        I    10:58   0:00 [kworker/4:0-cgroup_destroy]
+root      334061  0.0  0.0      0     0 ?        I    10:58   0:00 [kworker/5:0-cgroup_destroy]
+root      334431  0.0  0.0      0     0 ?        I    10:59   0:00 [kworker/6:1-events]
+root      334581  0.0  0.0      0     0 ?        I    10:59   0:00 [kworker/0:2-cgroup_destroy]
+root      335227  0.0  0.0      0     0 ?        I    11:00   0:00 [kworker/1:0-cgroup_destroy]
+root      335939  0.0  0.0      0     0 ?        I    11:01   0:00 [kworker/3:2-events]
+root      336022  0.0  0.0      0     0 ?        I    11:02   0:00 [kworker/7:1-cgroup_destroy]
+root      337029  0.0  0.0      0     0 ?        I    11:03   0:00 [kworker/5:1-cgroup_destroy]
+root      337194  0.0  0.0      0     0 ?        I    11:04   0:00 [kworker/2:1-cgroup_destroy]
+root      337541  0.0  0.0      0     0 ?        I    11:04   0:00 [kworker/4:2-events]
+root      337984  0.0  0.0      0     0 ?        I    11:05   0:00 [kworker/0:0-events]
+root      338060  0.0  0.0      0     0 ?        I    11:05   0:00 [kworker/6:2-cgroup_destroy]
+arjun     338149  0.0  0.1 920000 18436 ?        SNl  11:05   0:00 /usr/lib/x86_64-linux-gnu/tumbler-1/tumblerd
+root      338306  0.0  0.0      0     0 ?        I    11:06   0:00 [kworker/1:2-events]
+root      338333  0.0  0.0      0     0 ?        I<   11:06   0:00 [kworker/u17:0]
+arjun     338592  1.7  0.8 1184797328 138612 ?   Sl   11:06   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9082 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=423380072627 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     338619  0.0  0.2 42274040 34832 ?      Sl   11:06   0:00 /opt/google/chrome/chrome --type=utility --utility-sub-type=data_decoder.mojom.DataDecoderService --lang=en-US --service-sandbox-type=service --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     338665  1.6  0.9 1184817776 154984 ?   Sl   11:06   0:01 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9086 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=423386371647 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     338722  0.0  0.4 1184769284 66796 ?    Sl   11:06   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9087 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=423388845823 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun     338745  0.0  0.3 1184736500 57764 ?    Sl   11:06   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=9088 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=423389479469 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+root      339103  0.0  0.0      0     0 ?        I    11:07   0:00 [kworker/u16:0-ext4-rsv-conversion]
+root      339106  0.0  0.0      0     0 ?        I    11:07   0:00 [kworker/3:1-events]
+arjun     339115  0.0  0.0  24788  9996 pts/6    S+   11:07   0:00 vim script.sh
+root      339237  0.0  0.0      0     0 ?        I    11:07   0:00 [kworker/7:0-cgroup_destroy]
+arjun     339484  0.0  0.0  11496  3316 pts/10   R+   11:07   0:00 ps aux
+arjun     349357  0.0  0.0  12048  4412 pts/3    Ss+  Jul20   0:01 bash
+arjun     426571  0.0  0.0  12064  4428 pts/5    Ss+  Jul20   0:00 bash
+arjun    1407938  0.0  0.6 1184804664 103732 ?   Sl   Jul24   0:11 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=3561 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=132018782476 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+systemd+ 1416307  0.0  0.0  26576  7108 ?        Ss   Jul25   0:30 /lib/systemd/systemd-resolved
+arjun    1522291  0.0  1.9 1184812388 321552 ?   Sl   Jul25   6:49 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --extension-process --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=3878 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=142753989635 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    1797075  0.0  0.0  11136  3936 pts/1    Ss+  Jul26   0:00 bash
+arjun    2949687  0.0  0.0  12000  4428 pts/0    Ss+  Aug01   0:00 bash
+arjun    3244636  0.0  0.0 465100 12308 ?        SLl  Aug01   0:01 /usr/bin/seahorse --gapplication-service
+arjun    3563723  0.0  2.0 1185896036 336536 ?   Sl   Aug02   2:08 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7433 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=329028695392 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3576298  0.0  0.0  11116  5268 pts/2    Ss+  Aug02   0:00 bash
+arjun    3589385  0.0  0.0  11992  6116 pts/12   Ss+  Aug02   0:00 bash
+arjun    3629506  0.0  2.4 1185889820 394244 ?   Sl   Aug02   3:16 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7584 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=334658206557 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3714235  0.5  2.5 1186952672 416392 ?   Sl   Aug02  19:58 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7672 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=342943074380 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3763870  0.0  0.6 1184802596 107368 ?   Sl   Aug02   0:00 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7695 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=347985989423 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3764445  0.0  0.9 1185851680 153684 ?   Sl   Aug02   0:04 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --pdf-renderer --lang=en-US --js-flags=--jitless --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7697 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=348031475915 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3872387  0.0  0.0  12048  6352 pts/4    Ss   Aug03   0:00 bash
+arjun    3891565  0.0  0.0  12064  6388 pts/6    Ss   Aug03   0:00 bash
+arjun    3896032  0.0  1.2 1184814756 196932 ?   Sl   Aug03   2:19 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=7999 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=360661864153 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3902355  0.0  0.0  11012  5252 pts/7    Ss   Aug03   0:00 bash
+arjun    3902578  0.0  0.0  24924 10392 pts/7    S+   Aug03   0:00 vim aarch64_syscalls_undefined.out
+arjun    3902830  0.0  0.0  11012  5372 pts/8    Ss   Aug03   0:00 bash
+arjun    3903326  0.0  0.0  25284 10700 pts/8    S+   Aug03   0:00 vim wali.c
+arjun    3927803  0.0  0.6 310304 103592 pts/4   Sl+  Aug03   0:12 /usr/bin/python3 /home/arjun/.local/bin/jupyter-notebook
+arjun    3927957  0.0  0.9 1184806796 152552 ?   Sl   Aug03   1:04 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8133 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=363659898215 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    3928002  0.0  1.6 1371452 271008 ?      Ssl  Aug03   0:12 /usr/bin/python3 -m ipykernel_launcher -f /home/arjun/.local/share/jupyter/runtime/kernel-d5e16eea-a2db-4755-9875-623bcefdce9e.json
+arjun    3975405  1.5  4.8 1184836500 778164 ?   Sl   Aug03  41:43 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8356 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=367866358306 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    4001414  0.0  1.8 1184813356 291112 ?   Sl   Aug03   0:38 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8389 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=370480387190 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+root     4092594  0.0  0.0      0     0 ?        I<   Aug03   0:00 [kworker/0:0H]
+root     4116737  0.0  0.0  29680  9384 ?        Ss   Aug04   0:00 /usr/sbin/cupsd -l
+root     4116740  0.0  0.0 176552 12244 ?        Ssl  Aug04   0:00 /usr/sbin/cups-browsed
+arjun    4117557  0.8  1.6 35138728 260632 ?     Sl   Aug04  12:34 /opt/google/chrome/chrome --type=gpu-process --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --gpu-preferences=WAAAAAAAAAAgAAAIAAAAAAAAAAAAAAAAAABgAAAAAAA4AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAAAAIAAAAAAAAAABAAAAAAAAAAgAAAAAAAAACAAAAAAAAAAIAAAAAAAAAA== --shared-files --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    4146249  0.1  0.8 1184812520 144196 ?   Sl   Aug04   1:49 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8564 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=384754966575 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
+arjun    4152057  0.0  1.1 1184806568 186012 ?   Sl   Aug04   1:15 /opt/google/chrome/chrome --type=renderer --crashpad-handler-pid=3282 --enable-crash-reporter=945bc888-799e-4411-a485-2ad49b24a557, --change-stack-guard-on-fork=enable --lang=en-US --num-raster-threads=4 --enable-main-frame-before-activation --renderer-client-id=8580 --time-ticks-at-unix-epoch=-1689771790728951 --launch-time-ticks=385322020744 --shared-files=v8_context_snapshot_data:100 --field-trial-handle=0,i,5843744650391044403,10329298378372003168,131072
