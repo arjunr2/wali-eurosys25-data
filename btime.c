@@ -1,6 +1,7 @@
 // A utility similar to "time" that reports elapsed time for a given subcommand.
 // Reports in microseconds, as opposed to milliseconds (or hundredths of a second).
 // Does not do path resolution, however.
+#define _GNU_SOURCE
 
 #include <sys/resource.h>
 #include <sys/time.h>
@@ -51,7 +52,7 @@ int run(int run, int numruns, int nstdout, int nstderr, char *argv[]) {
     dup2(nstdout, 1);
     dup2(nstderr, 2);
     // execve the command
-    status = execve(argv[0], argv, global_envp);
+    status = execvpe(argv[0], argv, global_envp);
     // should not reach here unless exec failed
     printf("exec failed with status = %d, errno = %d\n", status, errno);
     exit(status);
