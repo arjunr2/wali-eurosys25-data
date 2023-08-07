@@ -1,0 +1,15 @@
+[submodule "src/lua"]
+	path = src/lua
+	url = https://github.com/lua/lua.git
+[submodule "src/memcached"]
+	path = src/memcached
+	url = https://github.com/memcached/memcached.git
+[submodule "src/bash"]
+	path = src/bash
+	url = https://github.com/bminor/bash.git
+[submodule "src/paho.mqtt.c"]
+	path = src/paho.mqtt.c
+	url = https://github.com/eclipse/paho.mqtt.c.git
+[submodule "src/sqlite"]
+	path = src/sqlite
+	url = https://github.com/sqlite/sqlite.git
