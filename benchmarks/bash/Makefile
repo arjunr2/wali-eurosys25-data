@@ -2,6 +2,7 @@ FL=data/forloop.sh
 FB=data/fibonacci.sh
 CMD=$(TIME) $(BASH)
 DIR=$(RESULTS)/bash
+SIGDIR=$(SIGRESULTS)/bash
 
 .PHONY: all docker
 all:
@@ -25,3 +26,6 @@ all:
 	$(CMD) $(FB) 100000 $(OUT) $(DIR)/fb10.$(MODE)
 docker:
 	docker build -t bash -f bash.dockerfile .
+
+sigtest:
+	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) $(FB) 4000 $(OUT) $(SIGDIR)/bash$$i.$(MODE); done
