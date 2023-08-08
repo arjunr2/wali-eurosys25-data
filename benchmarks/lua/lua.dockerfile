@@ -1,4 +1,4 @@
-FROM ubuntu:20.04
+FROM ubuntu:22.04
 ADD lua /
 COPY data /data
 SHELL ["/usr//bin/bash", "-c"]

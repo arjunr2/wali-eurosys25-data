@@ -24,14 +24,16 @@ all:
 	$(CMD) $(MT) 12 $(OUT) $(DIR)/mt12.$(MODE)
 	$(CMD) $(MT) 13 $(OUT) $(DIR)/mt13.$(MODE)
 	$(CMD) $(MT) 14 $(OUT) $(DIR)/mt14.$(MODE)
-	$(CMD) $(NB) 2000 $(OUT) $(DIR)/nb2k.$(MODE)
-	$(CMD) $(NB) 5000 $(OUT) $(DIR)/nb5k.$(MODE)
-	$(CMD) $(NB) 10000 $(OUT) $(DIR)/nb10k.$(MODE)
-	$(CMD) $(NB) 20000 $(OUT) $(DIR)/nb20k.$(MODE)
-	$(CMD) $(NB) 50000 $(OUT) $(DIR)/nb50k.$(MODE)
-	$(CMD) $(NB) 100000 $(OUT) $(DIR)/nb100k.$(MODE)
-	$(CMD) $(NB) 200000 $(OUT) $(DIR)/nb200k.$(MODE)
-	$(CMD) $(NB) 500000 $(OUT) $(DIR)/nb500k.$(MODE)
+	$(CMD) $(NB) 50000 $(OUT) $(DIR)/nb1.$(MODE)
+	$(CMD) $(NB) 100000 $(OUT) $(DIR)/nb2.$(MODE)
+	$(CMD) $(NB) 150000 $(OUT) $(DIR)/nb3.$(MODE)
+	$(CMD) $(NB) 200000 $(OUT) $(DIR)/nb4.$(MODE)
+	$(CMD) $(NB) 250000 $(OUT) $(DIR)/nb5.$(MODE)
+	$(CMD) $(NB) 300000 $(OUT) $(DIR)/nb6.$(MODE)
+	$(CMD) $(NB) 350000 $(OUT) $(DIR)/nb7.$(MODE)
+	$(CMD) $(NB) 400000 $(OUT) $(DIR)/nb8.$(MODE)
+	$(CMD) $(NB) 450000 $(OUT) $(DIR)/nb9.$(MODE)
+	$(CMD) $(NB) 500000 $(OUT) $(DIR)/nb10.$(MODE)
 	$(CMD) $(SN) 100 $(OUT) $(DIR)/sn100.$(MODE)
 	$(CMD) $(SN) 200 $(OUT) $(DIR)/sn200.$(MODE)
 	$(CMD) $(SN) 300 $(OUT) $(DIR)/sn300.$(MODE)
@@ -44,6 +46,7 @@ all:
 	$(CMD) $(SN) 1000 $(OUT) $(DIR)/sn1000.$(MODE)
 
 docker:
+	cp ../../btime btime
 	docker build -t lua -f lua.dockerfile .
 
 sigtest:

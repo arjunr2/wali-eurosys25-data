@@ -25,7 +25,12 @@ all:
 	$(CMD) $(FB) 90000 $(OUT) $(DIR)/fb9.$(MODE)
 	$(CMD) $(FB) 100000 $(OUT) $(DIR)/fb10.$(MODE)
 docker:
+	cp ../../btime btime
 	docker build -t bash -f bash.dockerfile .
+<<<<<<< HEAD
 
 sigtest:
 	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) $(FB) 4000 $(OUT) $(SIGDIR)/bash$$i.$(MODE); done
+=======
+	docker build -t bash-btime -f bash.btime.dockerfile .
+>>>>>>> e92f51c (More benchmarking infrastructure)
