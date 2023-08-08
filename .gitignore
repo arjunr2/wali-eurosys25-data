@@ -1,2 +1,6 @@
 *.db
 results/
+iwasm
+firecracaker
+btime
+qemu-x86_64
