@@ -1,6 +1,11 @@
 BENCHMARKS=$(shell pwd)/benchmarks
 IWASM=$(shell pwd)/iwasm
 QEMU=$(shell pwd)/qemu-x86_64
+export TIME=$(shell pwd)/btime
+export OUT=>
+export RESULTS=$(shell pwd)/results
+export SIGRESULTS=$(shell pwd)/sigresults
+
 
 ifeq ($(MODE),native)
 	export LUA=$(BENCHMARKS)/lua/lua
@@ -8,6 +13,10 @@ ifeq ($(MODE),native)
 else ifeq ($(MODE),docker)
 	export LUA=docker run lua
 	export BASH=docker run bash
+else ifeq ($(MODE),docker-inner)
+	export LUA=docker run lua-btime ./lua
+	export BASH=docker run bash-btime ./bash
+	export TIME=
 else ifeq ($(MODE),wali)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.aot
@@ -36,11 +45,6 @@ else ifeq ($(MODE),sigfunc)
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.sigfunc.aot
 endif
 
-export TIME=$(shell pwd)/btime
-export OUT=>
-export RESULTS=$(shell pwd)/results
-export SIGRESULTS=$(shell pwd)/sigresults
-
 all: dir lua bash
 
 dir:
@@ -60,7 +64,7 @@ btime: btime.c
 docker:
 	make -C benchmarks/lua docker
 	make -C benchmarks/bash docker
-
+	make -C benchmarks/sqlite3 docker
 
 sigdir:
 	mkdir -p sigresults
