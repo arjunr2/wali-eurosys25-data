@@ -10,19 +10,24 @@ export SIGRESULTS=$(shell pwd)/sigresults
 ifeq ($(MODE),native)
 	export LUA=$(BENCHMARKS)/lua/lua
 	export BASH=$(BENCHMARKS)/bash/bash
+	export SQLITE3=$(BENCHMARKS)/sqlite3/sqlite3
 else ifeq ($(MODE),docker)
 	export LUA=docker run lua
 	export BASH=docker run bash
+	export SQLITE3=docker run sqlite3
 else ifeq ($(MODE),docker-inner)
 	export LUA=docker run lua-btime ./lua
 	export BASH=docker run bash-btime ./bash
+	export SQLITE3=docker run sqlite3-btime ./sqlite3
 	export TIME=
 else ifeq ($(MODE),wali)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.aot
+	export SQLITE3=$(IWASM) $(BENCHMARKS)/sqlite3/sqlite3.aot
 else ifeq ($(MODE),qemu)
 	export LUA=$(QEMU) $(BENCHMARKS)/lua/lua
 	export BASH=$(QEMU) $(BENCHMARKS)/bash/bash
+	export SQLITE3=$(QEMU) $(BENCHMARKS)/sqlite3/sqlite3
 else ifeq ($(MODE),signone)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.signone.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.signone.aot
@@ -45,7 +50,7 @@ else ifeq ($(MODE),sigfunc)
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.sigfunc.aot
 endif
 
-all: dir lua bash
+all: dir lua bash sqlite3
 
 dir:
 	mkdir -p results
@@ -57,6 +62,10 @@ lua:
 bash:
 	mkdir -p results/bash
 	make -C benchmarks/bash
+
+sqlite3:
+	mkdir -p results/sqlite3
+	make -C benchmarks/sqlite3
 
 btime: btime.c
 	gcc btime.c -lm -o btime

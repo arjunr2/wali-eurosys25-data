@@ -3,4 +3,4 @@ ADD sqlite3 /
 COPY data /data
 COPY btime /
 SHELL ["/bin/bash", "-c"]
-ENTRYPOINT ["./sqlite3"]
+ENTRYPOINT ["./btime"]
