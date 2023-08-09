@@ -3,7 +3,7 @@ b=1
 
 for (( i=0; i<$@; i++ ))
 do
-    echo "$a"
+    echo "$a" > /dev/null
     fn=$((a + b))
     a=$b
     b=$fn

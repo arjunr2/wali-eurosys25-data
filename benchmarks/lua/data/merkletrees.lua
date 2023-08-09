@@ -47,8 +47,8 @@ do
     local stretchdepth = maxdepth + 1
     local stretchtree = MakeTree(stretchdepth)
     CalHash(stretchtree)
-    io.write(string.format("stretch tree of depth %d\t root hash: %d check: %s\n", stretchdepth, stretchtree.hash,
-        Check(stretchtree)))
+    -- io.write(string.format("stretch tree of depth %d\t root hash: %d check: %s\n", stretchdepth, stretchtree.hash,
+    --    Check(stretchtree)))
 end
 
 local longlivedtree = MakeTree(maxdepth)
@@ -61,9 +61,9 @@ for depth = mindepth, maxdepth, 2 do
         CalHash(t)
         sum = sum + t.hash
     end
-    io.write(string.format("%d\t trees of depth %d\t root hash sum: %d\n", iterations, depth, sum))
+    -- io.write(string.format("%d\t trees of depth %d\t root hash sum: %d\n", iterations, depth, sum))
 end
 
 CalHash(longlivedtree)
-io.write(string.format("long lived tree of depth %d\t root hash: %d check: %s\n", maxdepth, longlivedtree.hash,
-    Check(longlivedtree)))
+-- io.write(string.format("long lived tree of depth %d\t root hash: %d check: %s\n", maxdepth, longlivedtree.hash,
+--    Check(longlivedtree)))

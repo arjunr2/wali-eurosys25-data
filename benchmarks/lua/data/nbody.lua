@@ -116,6 +116,6 @@ local N = tonumber(arg and arg[1]) or 1000
 local nbody = #bodies
 
 offsetMomentum(bodies, nbody)
-io.write( string.format("%0.9f",energy(bodies, nbody)), "\n")
+-- io.write( string.format("%0.9f",energy(bodies, nbody)), "\n")
 for i=1,N do advance(bodies, nbody, 0.01) end
-io.write( string.format("%0.9f",energy(bodies, nbody)), "\n")
+-- io.write( string.format("%0.9f",energy(bodies, nbody)), "\n")
