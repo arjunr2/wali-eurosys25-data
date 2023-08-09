@@ -34,4 +34,4 @@ docker:
 	docker build -t sqlite3-btime -f sqlite3.btime.dockerfile .
 
 sigtest:
-	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) $(CN) ".read $(LS)" $(OUT) $(SIGDIR)/sqlite3$$i.$(MODE); done
+	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) data/400.db $(Q) $(OUT) $(SIGDIR)/sqlite3$$i.$(MODE); done
