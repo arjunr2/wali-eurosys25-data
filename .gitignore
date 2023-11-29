@@ -1,5 +1,7 @@
 *.db
-results/
+results/bash
+results/lua
+results/sqlite3
 iwasm
 firecracaker
 btime
