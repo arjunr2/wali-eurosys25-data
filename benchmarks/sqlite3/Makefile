@@ -34,7 +34,7 @@ docker:
 	docker build -t sqlite3-btime -f sqlite3.btime.dockerfile .
 
 sigtest:
-	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) data/400.db $(Q) $(OUT) $(SIGDIR)/sqlite3$$i.$(MODE); done
+	for i in `seq 1 4`; do $(CMD) data/400.db $(Q) $(OUT) $(SIGDIR)/sqlite3$$i.$(MODE); done
 
 build-aot:
 	$(WAMRC) --enable-multi-thread -o sqlite3$(SIGPREFIX).aot sqlite3.wasm

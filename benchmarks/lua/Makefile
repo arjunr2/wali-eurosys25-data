@@ -51,7 +51,7 @@ docker:
 	docker build -t lua-btime -f lua.btime.dockerfile .
 
 sigtest:
-	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) $(BT) 14 $(OUT) $(SIGDIR)/lua$$i.$(MODE); done
+	for i in `seq 1 4`; do $(CMD) $(BT) 14 $(OUT) $(SIGDIR)/lua$$i.$(MODE); done
 
 build-aot:
 	$(WAMRC) --enable-multi-thread -o lua$(SIGPREFIX).aot lua.wasm

@@ -1,5 +1,6 @@
 BENCHMARKS=$(shell pwd)/benchmarks
-IWASM=$(shell pwd)/iwasm
+# Miscellaneous binary format
+IWASM=
 QEMU=$(shell pwd)/qemu-x86_64
 export TIME=$(shell pwd)/btime
 export OUT=>
@@ -62,10 +63,10 @@ endif
 all: dir lua bash sqlite3
 
 build-aot:
-	make -C benchmarks/bash build-aot &
-	make -C benchmarks/lua build-aot &
-	make -C benchmarks/sqlite3 build-aot &
-	make -C benchmarks/paho-bench build-aot &
+	make -C benchmarks/bash build-aot
+	make -C benchmarks/lua build-aot
+	make -C benchmarks/sqlite3 build-aot
+	make -C benchmarks/paho-bench build-aot
 
 dir:
 	mkdir -p results
@@ -92,6 +93,8 @@ docker:
 
 sigdir:
 	mkdir -p sigresults
+
+
 
 sigtest: sigdir
 	mkdir -p sigresults/bash sigresults/lua sigresults/sqlite3 sigresults/paho-bench

@@ -30,7 +30,7 @@ docker:
 	docker build -t bash-btime -f bash.btime.dockerfile .
 
 sigtest:
-	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) $(FB) 20000 $(OUT) $(SIGDIR)/bash$$i.$(MODE); done
+	for i in `seq 1 4`; do $(CMD) $(FB) 20000 $(OUT) $(SIGDIR)/bash$$i.$(MODE); done
 
 build-aot:
 	$(WAMRC) --enable-multi-thread -o bash$(SIGPREFIX).aot bash.wasm
