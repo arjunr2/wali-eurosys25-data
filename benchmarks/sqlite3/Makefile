@@ -35,3 +35,6 @@ docker:
 
 sigtest:
 	for i in `seq 1 4`; do sudo taskset -c 6 $(CMD) data/400.db $(Q) $(OUT) $(SIGDIR)/sqlite3$$i.$(MODE); done
+
+build-aot:
+	$(WAMRC) --enable-multi-thread -o sqlite3.$(MODE).aot sqlite3.wasm
