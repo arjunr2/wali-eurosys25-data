@@ -6,7 +6,7 @@ export OUT=>
 export RESULTS=$(shell pwd)/results
 export SIGRESULTS=$(shell pwd)/sigresults
 export WAMRC=$(shell pwd)/wamrc/wamrc
-
+export SIGPREFIX=""
 
 ifeq ($(MODE),native)
 	export LUA=$(BENCHMARKS)/lua/lua
@@ -35,24 +35,28 @@ else ifeq ($(MODE),signone)
 	export SQLITE3=$(IWASM) $(BENCHMARKS)/sqlite3/sqlite3.signone.aot
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.signone.aot
 	export WAMRC=$(shell pwd)/wamrc/wamrc.no-sigpoll
+	export SIGPREFIX=.signone
 else ifeq ($(MODE),sigall)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.sigall.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.sigall.aot
 	export SQLITE3=$(IWASM) $(BENCHMARKS)/sqlite3/sqlite3.sigall.aot
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.sigall.aot
 	export WAMRC=$(shell pwd)/wamrc/wamrc.all-sigpoll
+	export SIGPREFIX=.sigall
 else ifeq ($(MODE),sigloop)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.aot
 	export SQLITE3=$(IWASM) $(BENCHMARKS)/sqlite3/sqlite3.aot
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.aot
 	export WAMRC=$(shell pwd)/wamrc/wamrc.loop-sigpoll
+	export SIGPREFIX=""
 else ifeq ($(MODE),sigfunc)
 	export LUA=$(IWASM) $(BENCHMARKS)/lua/lua.sigfunc.aot
 	export BASH=$(IWASM) $(BENCHMARKS)/bash/bash.sigfunc.aot
 	export SQLITE3=$(IWASM) $(BENCHMARKS)/sqlite3/sqlite3.sigfunc.aot
 	export PAHO=$(IWASM) $(BENCHMARKS)/paho-bench/paho-bench.sigfunc.aot
 	export WAMRC=$(shell pwd)/wamrc/wamrc.func-sigpoll
+	export SIGPREFIX=.sigfunc
 endif
 
 all: dir lua bash sqlite3
