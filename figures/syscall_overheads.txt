@@ -1,0 +1,32 @@
+Syscall              Overhead (ns)
+read                 167       
+write                151       
+mmap                 512       
+open                 156       
+close                187       
+fstat                171       
+mprotect             120       
+pread64              671       
+lseek                178       
+rt_sigaction         711       
+stat                 112       
+futex                141       
+rt_sigprocmask       114       
+getpid               168       
+writev               387       
+munmap               246       
+fcntl                160       
+access               202       
+recvfrom             116       
+getuid               151       
+geteuid              123       
+poll                 128       
+getrusage            151       
+getegid              164       
+getgid               165       
+lstat                142       
+ioctl                127       
+clone                554873    
+prlimit64            139       
+fork                 4839      
+NOTES: Timing fork is non-deterministic since it depends on how the processes get scheduled. It however is a trivial passthrough, and we report  this with a manual test

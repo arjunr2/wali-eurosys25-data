@@ -6,3 +6,4 @@ iwasm
 firecracaker
 btime
 qemu-x86_64
+__pycache__
