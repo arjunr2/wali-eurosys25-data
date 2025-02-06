@@ -11,7 +11,6 @@ data.tar.gz             // All data to generate figures
 	- macrobenchmarks   // Overhead split on macrobenchmarks
 
 benchmarks.tar.gz       // Benchmarks compiled to generate data
-virt.tar.gz             // Iwasm, WAMR AoT Compiler, and QEMU binaries used for runs
 ...
 plot/                   // All the plotting scripts for figures, based on data
 figures/                // All the figures generated from 'plot' scripts
@@ -37,7 +36,7 @@ After running these steps, you can generate figures as in the previous section.
 
 To rerun, first perform these prerequisites:
 
-1. Untar `benchmarks.tar.gz` and `virt.tar.gz`
+1. Untar `benchmarks.tar.gz` and `virt.tar.gz` (available in the artifact VM, not on Github)
 2. (Optional) Build AoT files with `./build_aot.sh` -- these are already packaged in the benchmarks directory.
 
 
