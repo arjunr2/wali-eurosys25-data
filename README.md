@@ -30,6 +30,7 @@ To re-generate figures:
 
 ### Rerun Benchmarks
 
+Some data, particularly the WALI-Docker-QEMU comparison and the sigpoll overhead can be regenerated.
 Note, the new runs may differ quite drastically from collected ones based on hardware platform or effects of OS virtualization in the stack.
 However the trends will remain the same --- WALI is a middle-ground between fast startup time of QEMU and fast runtime of Docker.
 After running these steps, you can generate figures as in the previous section.
@@ -43,17 +44,17 @@ To rerun, first perform these prerequisites:
 #### WALI-Docker-QEMU Comparison Benchmarks
 
 Follow these steps:
-1. Generate dataset for `sqlite3`:
+1. Generate dataset for `sqlite3` (approx 10 min to run):
 ```shell
 cd benchmarks/sqlite3; 
 python3 create.py; 
 cd ../..
 ```
 2. Now make docker images with: `sudo make docker`
-3. Generate `results` directory with `./benchmark.sh` (approx 20 min to run)
+3. Generate `results` directory with `sudo ./benchmark.sh` (approx 20 min to run)
 4. Summarize the directory with `python3 summarize.py`
 
 #### Sigpoll benchmarks
 
-Run `./sigtest.sh` (10-20 min to run) to generate the `sigresults`
+Run `sudo ./sigtest.sh` (10-20 min to run) to generate the `sigresults`
 
